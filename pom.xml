@@ -44,6 +44,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.wusd.httpsdemo.HttpsDemoApplication</mainClass>
+                    <jmxPort>9000</jmxPort>
                 </configuration>
             </plugin>
         </plugins>
